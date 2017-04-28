@@ -109,7 +109,7 @@ var CACHED_URLS = [
     BASE_PATH + 'styles.css'
 ];
 
-var googleMapsAPIJS = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAlVh89VvQ5fR8PCPFak-YoYGX_eg1DBSc&callback=initMap';
+var googleMapsAPIJS = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&callback=initMap';
 
 self.addEventListener('install', function(event) {
     // Cache everything in CACHED_URLS. Installation fails if anything fails to cache
@@ -123,12 +123,12 @@ self.addEventListener('install', function(event) {
 self.addEventListener('fetch', function(event) {
     var requestURL = new URL(event.request.url);
     // Handle requests for index.html
-    if (requestURL.pathname === BASE_PATH + 'first.html') {
+    if (requestURL.pathname === BASE_PATH + 'index.html') {
         event.respondWith(
             caches.open(CACHE_NAME).then(function(cache) {
-                return cache.match('first.html').then(function(cachedResponse) {
-                    var fetchPromise = fetch('first.html').then(function(networkResponse) {
-                        cache.put('first.html', networkResponse.clone());
+                return cache.match('index.html').then(function(cachedResponse) {
+                    var fetchPromise = fetch('index.html').then(function(networkResponse) {
+                        cache.put('index.html', networkResponse.clone());
                         return networkResponse;
                     });
                     return cachedResponse || fetchPromise;
