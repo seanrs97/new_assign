@@ -46,8 +46,23 @@ var CACHED_URLS = [
    BASE_PATH +'images/universityImage-1x.png',
    BASE_PATH +'images/universityImage-2x.png',
    BASE_PATH +'images/universityImage-3x.png',
- 
-  
+   
+   
+   BASE_PATH +'assets/css/images/overlay.png',
+   BASE_PATH +'assets/css/images/shadow.png',
+   BASE_PATH +'assets/css/font-awesome.min.css',
+   BASE_PATH +'assets/css/ie8.css',
+   BASE_PATH +'assets/css/main.css',
+   BASE_PATH +'assets/css/normalize.css',
+   BASE_PATH +'assets/fonts/FontAwesome.otf',
+   BASE_PATH +'assets/js/gen_validatorv31.js',
+   BASE_PATH +'assets/js/jquery.min.js',
+   BASE_PATH +'assets/js/main.js',
+   BASE_PATH +'assets/js/modernizr.js',
+   BASE_PATH +'assets/sass/ie8.scss',
+   BASE_PATH +'assets/sass/main.scss',
+   BASE_PATH +'assets/browserconfig.xml',
+   
    
    
    
