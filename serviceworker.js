@@ -7,6 +7,7 @@ var CACHED_URLS = [
     // Our HTML
     BASE_PATH + 'first.html',
 	BASE_PATH + 'index.html',
+	BASE_PATH + 'staffs-uni.html',
 
     //                      PUT THESE IN RIGHT SPOTS
     BASE_PATH + 'appimages/event-default.png',
