@@ -18,13 +18,20 @@ var CACHED_URLS = [
 
 
     // Images for favicons
-    BASE_PATH + 'appimages/android-icon-36x36.png',
-    BASE_PATH + 'appimages/android-icon-48x48.png',
-    BASE_PATH + 'appimages/android-icon-72x72.png',
-    BASE_PATH + 'appimages/android-icon-96x96.png',
-    BASE_PATH + 'appimages/android-icon-144x144.png',
-    BASE_PATH + 'appimages/android-icon-192x192.png',
-    BASE_PATH + 'appimages/favicon-32x32.png',
+   BASE_PATH +'images/favicon/android-icon-36x36.png',
+   BASE_PATH +'images/favicon/android-icon-48x48.png',
+   BASE_PATH +'images/favicon/android-icon-72x72.png',
+   BASE_PATH +'images/favicon/android-icon-96x96.png',
+   BASE_PATH +'images/favicon/android-icon-144x144.png',
+   BASE_PATH +'images/favicon/android-icon-192x192.png',
+   BASE_PATH +'images/favicon/favicon-16x16.png',
+   BASE_PATH +'images/favicon/favicon-32x32.png',
+   BASE_PATH +'images/favicon/favicon-96x96.png',
+   BASE_PATH +'images/favicon/ic_launcher-1x.png',
+   BASE_PATH +'images/favicon/ic_launcher-2x.png',
+   BASE_PATH +'images/favicon/ic_launcher-3x.png',
+   BASE_PATH +'images/favicon/ic_launcher-4x.png',
+   BASE_PATH +'images/favicon/ic_launcher-5x.png',
 
     //Images for page
     BASE_PATH + 'appimages/offlinemap.jpg',
