@@ -6,6 +6,7 @@ var newsAPIJSON = "https://newsapi.org/v1/articles?source=bbc-news&apiKey=c5b2ba
 var CACHED_URLS = [
     // Our HTML
     BASE_PATH + 'first.html',
+	BASE_PATH + 'index.html',
 
     //                      PUT THESE IN RIGHT SPOTS
     BASE_PATH + 'appimages/event-default.png',
