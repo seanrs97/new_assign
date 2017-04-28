@@ -7,8 +7,6 @@ var CACHED_URLS = [
    BASE_PATH +'index.html',
    BASE_PATH +'staffs-uni.html',
    BASE_PATH +'sign-up.html',
-   BASE_PATH +'first.html',
-   BASE_PATH +'second.html',
   
    BASE_PATH +'mystyles.css',
    BASE_PATH +'styles.css',
@@ -57,8 +55,8 @@ var CACHED_URLS = [
    BASE_PATH +'assets/browserconfig.xml',
    BASE_PATH +'offline-map.js',
    BASE_PATH +'assets/js/material.js',
-   BASE_PATH +'eventsimages/event-default.png',
-   BASE_PATH +'appimages/offlinemap.jpg',
+   BASE_PATH +'eventImages/event-default.png',
+   BASE_PATH +'offlinemap.jpg',
    BASE_PATH +'events.json',
    BASE_PATH +'scripts.js'
 ];
