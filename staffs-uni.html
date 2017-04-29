@@ -205,7 +205,7 @@
 			
 			
 			
-			/*if(navigator.geolocation){
+			if(navigator.geolocation){
 				navigator.geolocation.getCurrentPosition(initMap, error);
 			} else {
 				alert("You need geolocation to view this map");
@@ -258,9 +258,9 @@
 				
 				
 				
-				*/
 				
 				
+			/*	
 				function initMap() {
 	var uluru = {lat: 53.0091, lng: -2.1761};
 	var map = new google.maps.Map(document.getElementById('map-container'), {
@@ -329,11 +329,11 @@ function error(err) {
   console.warn(`ERROR(${err.code}): ${err.message}`);
 };
 
-navigator.geolocation.getCurrentPosition(success, error, options);
+navigator.geolocation.getCurrentPosition(success, error, options);*/
 
 				
                 </script>
-													 <script async defer 
+			<script async defer 
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&sensor=false&libraries=places&callback=initMap">
              </script>
 				<div id="map-container" style="height: 300px;"></div>
