@@ -150,6 +150,11 @@ function createMarker(place, text, label){
 		infowindow.open(map,this);
 	});
 }
+
+function error(err) {
+  console.warn(`ERROR(${err.code}): ${err.message}`);
+};
+
 navigator.geolocation.getCurrentPosition(success, error, options);
                 </script>
                 <script async defer

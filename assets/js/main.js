@@ -117,10 +117,6 @@ $(".read-more-hide").on("click",function(e){
 
 
 
-function error(err) {
-  console.warn(`ERROR(${err.code}): ${err.message}`);
-};
-
 
 
 function loadUpScreen(param){
