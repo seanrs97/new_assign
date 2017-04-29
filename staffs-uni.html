@@ -78,7 +78,7 @@
 						
 						
                 <script>
-                function initMap() { 
+                /*function initMap() { 
                     var myLocation = {lat: 53.0103798, lng: -2.1801833};
                     var map = new google.maps.Map(document.getElementById('map-container'), {
                     zoom: 2,
@@ -88,7 +88,7 @@
                     position: myLocation,
                     map: map
                     });
-                }
+                }*/
 				
 				/*function initMap() {
 					var myLocation = {lat: 53.0091, lng: -2.1761};
@@ -254,13 +254,13 @@
 			function error(pos){
 				alert("your browser has blocked geolocation");
 			}
+				*/
 				
 				
 				
 				
 				
 				
-			/*	
 				function initMap() {
 	var uluru = {lat: 53.0091, lng: -2.1761};
 	var map = new google.maps.Map(document.getElementById('map-container'), {
@@ -329,12 +329,12 @@ function error(err) {
   console.warn(`ERROR(${err.code}): ${err.message}`);
 };
 
-navigator.geolocation.getCurrentPosition(success, error, options);*/
+navigator.geolocation.getCurrentPosition(success, error, options);
 
 				
                 </script>
 			<script
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&libraries=geometry,places&callback=initMap" async defer >
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&libraries=places&callback=initMap" async defer >
              </script>
 				<div id="map-container" style="height: 300px;"></div>
 					</section>
