@@ -75,7 +75,11 @@
 						
 						<p class = "style2"> Looking to travel to staffs? We have you covered!</p>
 						<p class = "style1" id = "userLocation"> Below are some local train stations to guide you to Staffs Uni</div>
-						              <div id="map-container" style="height: 300px;"></div>
+						
+						<div id="map-container" style="height: 300px;"></div>
+						                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&callback=initMap">
+             </script>
                 <script>
                 /*function initMap() { 
                     var myLocation = {lat: 53.0103798, lng: -2.1801833};
@@ -158,9 +162,7 @@
 					navigator.geolocation.getCurrentPosition(success, error, options);
 				
                 </script>
-                <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&callback=initMap">
-             </script>
+
 					</section>
 				</div>
 
