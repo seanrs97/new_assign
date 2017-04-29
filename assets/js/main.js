@@ -115,12 +115,6 @@ $(".read-more-hide").on("click",function(e){
 
 
 
-let options = {
-  enableHighAccuracy: true,
-  timeout: 5000,
-  maximumAge: 0
-};
-
 
 
 function error(err) {
