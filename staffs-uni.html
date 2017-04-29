@@ -88,22 +88,10 @@
                     map: map
                     });
                 }*/
-				function initMap() {
-					var myLocation = {lat: 53.0091, lng: -2.1761};
-					var map = new google.maps.Map(document.getElementById('map-container'), {
-						 zoom: 14,
-						 center: myLocation
-					});
-					var marker = new google.maps.Marker({
-					 position: myLocation,
-					 map: map
-					});
-				}
+	
 				
                 </script>
-                <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&callback=initMap">
-             </script>
+ 
 					</section>
 				</div>
 
@@ -211,6 +199,18 @@
 			<script type = "text/javascript" src = "assets/js/modernizr.js"></script>
 			<script src = "scripts.js"/>
 			<script>
+			
+						function initMap() {
+					var myLocation = {lat: 53.0091, lng: -2.1761};
+					var map = new google.maps.Map(document.getElementById('map-container'), {
+						 zoom: 14,
+						 center: myLocation
+					});
+					var marker = new google.maps.Marker({
+					 position: myLocation,
+					 map: map
+					});
+				}
 							let options = {
 				  enableHighAccuracy: true,
 				  timeout: 5000,
@@ -269,6 +269,9 @@
 
 					navigator.geolocation.getCurrentPosition(success, error, options);
 			</script>
+			               <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&callback=initMap">
+             </script>
 
 	</body>
 </html>
