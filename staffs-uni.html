@@ -34,14 +34,35 @@
 	<link rel="stylesheet" href="styles.css">
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
-  <body>
-    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Test Page - Progressive Web Apps</span>
-          <div class="mdl-layout-spacer"></div>
-         </div>
-      </header>
+  <body class="homepage" onload = "loadUpScreen(100)">
+		<div id = "loader-wrapper">
+			<div id = "splash">
+				<p class = "style1"> Loading your page</p>
+				<h3 class = "icon fa fa-spinner fa-pulse fa-3x fa-fw"></h3>
+			</div>
+		</div>
+			<!-- Header -->
+		<div id="page-wrapper">	
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">A guide to Staffordshire University</a></h1>
+								<p>A guide for students by a student</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Uni Intro</a></li>
+									<li><a href="staffs-uni.html">Staffs Uni</a></li>
+									<li><a href="right-sidebar.html">Location</a></li>
+									<li><a href="sign-up.html">Sign Up</a></li>
+								</ul>
+							</nav>
+					</div>
+				</div>
       <div class="demo-ribbon"></div>
       <main class="demo-main mdl-layout__content">
         <div class="demo-container mdl-grid">
