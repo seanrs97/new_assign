@@ -166,6 +166,7 @@
 				
 				var map;
 				var infowindow;
+				var infoWindow;
 				
 				function initMap(){
 					
@@ -198,17 +199,18 @@
 					'Error: The Geolocation service failed.' :
                     'Error: Your browser doesn\'t support geolocation.');
 				infowindow.open(map);
-											
+								
+					 infoWindow = new google.maps.InfoWindow();
+					var service = new google.maps.places.PlacesService(map);
+					service.nearbySearch({
+					  location: pyrmont,
+					  radius: 500,
+					  type: ['store']
+					}, callback);
 				}
 				
-		infoWindow = new google.maps.InfoWindow();
-        var service = new google.maps.places.PlacesService(map);
-        service.nearbySearch({
-          location: pyrmont,
-          radius: 500,
-          type: ['store']
-        }, callback);
-      }
+
+      
 
       function callback(results, status) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
@@ -230,6 +232,8 @@
           infoWindow.open(map, this);
         });
       }
+				
+				
 				
 				
 				
