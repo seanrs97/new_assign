@@ -164,7 +164,7 @@
 				
 				
 				
-				var map;
+				/*var map;
 				var infowindow;
 				var infoWindow;
 				
@@ -200,38 +200,57 @@
                     'Error: Your browser doesn\'t support geolocation.');
 				infowindow.open(map);
 								
-					 infoWindow = new google.maps.InfoWindow();
-					var service = new google.maps.places.PlacesService(map);
-					service.nearbySearch({
-					  location: pyrmont,
-					  radius: 500,
-					  type: ['store']
-					}, callback);
 				}
+			*/
+			if(navigator.geolocation){
+				navigator.geolocation.getCurrentPosition(displayPosition, error);
+			} else {
+				alert("You need geolocation to view this map");
+			}
+			function initMap(pos){
+				var lat = pos.coords.latitude;
+				var lng = pos.coords.longitude;
+				var latlng = new google.maps.LatLng(lat,lng);
+				var options = {
+					zoom: 14,
+					center: latlng,
+					mapTypeId: google.maps.MapTypeId.HYBRID
+				};
+				var map = new google.maps.Map(document.getElementById("map-container"),options);
 				
-
-      
-
-      function callback(results, status) {
-        if (status === google.maps.places.PlacesServiceStatus.OK) {
-          for (var i = 0; i < results.length; i++) {
-            createMarker(results[i]);
-          }
-        }
-      }
-
-      function createMarker(place) {
-        var placeLoc = place.geometry.location;
-        var marker = new google.maps.Marker({
-          map: map,
-          position: place.geometry.location
-        });
-
-        google.maps.event.addListener(marker, 'click', function() {
-          infoWindow.setContent(place.name);
-          infoWindow.open(map, this);
-        });
-      }
+				var request = {
+					location: latlng,
+					radius: '2000',
+					type: ['store']
+				};
+				
+				var service = new google.maps.places.PlacesService(map);
+				service.search(request, callback);
+				
+				function callback(results, status){
+					if(status === google.maps.places.PlacesServiceStatus.OK){
+						for(var i = 0; i < results.length; i++){
+							var place = results[i];
+							createMarker(results[i]);
+						}
+					}
+				}
+				function createMarker(place){
+					var placeLoc = place.geometry.location;
+					var marker = new google.maps.Marker({
+						map:map,
+						position: place.geometry.location
+					});
+				}
+				var marker = new google.maps.Marker({
+					position: latlng,
+					map: map,
+					title: 'place'
+				});
+			}
+			function error(pos){
+				alert("your browser has blocked geolocation");
+			}
 				
 				
 				
