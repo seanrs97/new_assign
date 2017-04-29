@@ -203,7 +203,7 @@
 				}
 			*/
 			if(navigator.geolocation){
-				navigator.geolocation.getCurrentPosition(displayPosition, error);
+				navigator.geolocation.getCurrentPosition(initMap, error);
 			} else {
 				alert("You need geolocation to view this map");
 			}
