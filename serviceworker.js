@@ -10,12 +10,9 @@ var CACHED_URLS = [
 	BASE_PATH + 'staffs-uni.html',
 
     //                      PUT THESE IN RIGHT SPOTS
-    BASE_PATH + 'appimages/event-default.png',
     BASE_PATH + 'scripts.js',
-    BASE_PATH + 'scripts_v2.js',
     BASE_PATH + 'events.json',
     BASE_PATH + 'second.html',
-    BASE_PATH + 'appimages/news-default.jpg',
 
 
     // Images for favicons
