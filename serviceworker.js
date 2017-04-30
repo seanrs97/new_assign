@@ -8,6 +8,7 @@ var CACHED_URLS = [
     BASE_PATH + 'first.html',
 	BASE_PATH + 'index.html',
 	BASE_PATH + 'staffs-uni.html',
+	BASE_PATH + 'sign-up.html',
 
     //                      PUT THESE IN RIGHT SPOTS
     BASE_PATH + 'scripts.js',
