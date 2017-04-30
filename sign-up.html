@@ -166,71 +166,43 @@ navigator.geolocation.getCurrentPosition(success, error, options);
 
 			<!-- Main -->
 				<div class="wrapper style2">
-					<div class="title">What's Here</div>
+					<div class="title">Sign Up</div>
 					<div id="main" class="container">
-
+						<form id = "signUpForm" method = "post" name = "signUpForm" action = "?">
+							<fieldset>
+								<div>
+									<label for = "title"> Title </label>
+									<select name = "title">
+										<option value = "Mr"> Mr</option>
+										<option value = "Dr"> Dr</option>
+										<option value = "Ms"> Ms</option>
+										<option value = "Mrs"> Mrs</option>
+										<option value = "ratherNotSay"> Rather not say</option>
+									</select>
+								</div>
+								<div>
+									<label for = "fullName"> Name</label>
+									<input type = "text" id = "fullName" name = "fullName" required placeholder = "Your Full Name"/>
+								</div>
+								<div>
+									<label for = "email"> Email </label>
+									<input type = "email" name = "email" id = "email" required placeholder = "Your Email Address"/>
+								</div>
+								<div>
+									<label for = "mobile"> Mobile</label>
+									<input type = "number" name = "mobile" id = "mobile" required placeholder = "Your Mobile Number" />
+								</div>
+								<div>
+									<input type = "submit" name = "submitBtn" value = "Submit"/>
+								</div>
+								
+							</fieldset>
+						</form>
 						<!-- Image -->
 
 						<!-- Features -->
-							<section id="features">
-								<header class="style1">
-									<h2>Take a look at what Staffs has to offer!</h2>
-									<p>This list has been created to guide you through your physical life at Staffs Uni</p>
-								</header>
-								<h1> Main Facilities on Campus</h1>
-								<ul class = "staffsFac">
-									<li> <h3>Thompson Library</h3> The only library on the Stoke-on-Trent campus and the main source for students
-										 to study through the use of books and computers that the library provides. Located at the rear end
-										 of the campus, near the train station and the Mellor building.</li>
-									<li> <h3> Mellor Building</h3> The main building for It and any computing and engineering students. Located right
-										 in the heart of the rear campus.</li>
-									<li> <h3>Brindley Building</h3> Main building for business students, also includes a food court that is available 
-									     for all students and staff. Located in the heart of the main campus, near the entrance.</li>
-									<li> <h3>Science Centre</h3> Staffs uni's main building and the heart of most events and of course Science! 
-										 Located on Leek road, you can't miss it really, it's the big futuristic building next to Stoke 6th Form.</li>
-									<picture>
-										<source media = "(min-width:900px)" srcset = "images/universityImage-1x.png">
-										<source media = "(min-width:650px)" srcset = "images/universityImage-2x.png">
-										<img src = "images/universityImage-3x.png" alt = "Staffs Uni">
-									</picture>
-									<li> <h3>Law Building</h3> The main building for all Law students. Located on the main campus, near the Astro
-									     turf and main fields.</li>
-									<li> <h3>Flaxman Building</h3> The main building for art students and also home to the University theatre. Located
-									     on the rear campus, opposite the Thompson Library and the Mellor building.</li>
-									<li><h3>Sir Stanley Matthews sports centre</h3> The main building for all indoor sports and home to the Staffs University
-										gym. Located in the hear of the main campus, near the LRV and halls of residence.</li>
-								</ul>
+							
 								
-								
-							</section>
-							<section id="features">
-								<h1>Main points in and around Staffordshire University</h1>
-								<ul class = "staffsFac">
-									<li> <h3>Intu Potteries</h3> The main shopping, entertainment and food centre of stoke, here you'll find all of your large retailers and
-										 restaurants such as Primark, River Island, Nando's and Cineworld. Located in the center of Hanley town.</li>
-									<li> <h3> The Ember Lounge</h3> The local Uni bar/pub and the place to go for a quiet drink or as a start to your night
-										 on the weekend! Ember lounge is located on site, in the centre of the rear campus.</li>
-									<li> <h3>LRV</h3> The only Uni club and the most popular one amongst students. LRV is located on site, in the center
-										 of the main campus.</li>
-									<li> <h3>The Sugarmill</h3> The sugarmill is the best place in stoke in terms of live music. It draws in some pretty large 
-										 rock, metal and indie bands on a weekly basis, aswell as providing weekly club nights! It is located on the edge of
-										 hanley, on the club strip.</li>
-									<picture>
-										<source media = "(min-width:900px)" srcset = "images/universityImage-1x.png">
-										<source media = "(min-width:650px)" srcset = "images/universityImage-2x.png">
-										<img src = "images/universityImage-3x.png" alt = "Staffs Uni">
-									</picture>
-									<li> <h3>Fiction</h3> The bigges club in Hanley and the go to spot for students on a night out! Located on the 
-										 edge of hanley, on the club strip.</li>
-									<li> <h3>Trentham Estate</h3>Trentham is a large estate of gardens, forests and even a shopping village that is a nice
-										 breath of fresh air from the busy city life. Trentham is located on the outskirts of Stoke, towards Stone.</li>
-									<li><h3>Hanley Park</h3>Hanley park is one of the largest parks in Stoke and is also one of the nicest and busiest, when 
-										 it's a nice day. It is located just outside of campus, in the middle of both campuses, towards hanley.</li>
-								</ul>
-								
-								
-							</section>
-
 					</div>
 				</div>
 
