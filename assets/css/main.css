@@ -2496,10 +2496,6 @@
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				-moz-transition: -moz-transform 0.1s ease;
-				-webkit-transition: -webkit-transform 0.1s ease;
-				-ms-transition: -ms-transform 0.1s ease;
-				transition: transform 0.5s ease;
 				padding-bottom: 1px;
 			}
 
@@ -2508,10 +2504,7 @@
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				-moz-transition: -moz-transform 0.25s ease;
-				-webkit-transition: -webkit-transform 0.25s ease;
-				-ms-transition: -ms-transform 0.25s ease;
-				transition: transform 0.25s ease;
+	
 				display: block;
 				height: 44px;
 				left: 0;
