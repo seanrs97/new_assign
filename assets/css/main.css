@@ -1100,10 +1100,7 @@
 		}
 
 	a {
-		-moz-transition: color .25s ease-in-out;
-		-webkit-transition: color .25s ease-in-out;
-		-ms-transition: color .25s ease-in-out;
-		transition: color .25s ease-in-out;
+
 		text-decoration: underline;
 		color: #717479;
 	}
@@ -1202,11 +1199,7 @@
 	form input[type="number"],
 	form select,
 	form textarea {
-		-moz-transition: all .25s ease-in-out;
-		-webkit-transition: all .25s ease-in-out;
-		-ms-transition: all .25s ease-in-out;
-		transition: all .25s ease-in-out;
-		-webkit-appearance: none;
+
 		display: block;
 		border: 0;
 		background: #eee;
@@ -1338,10 +1331,7 @@
 	input[type="reset"],
 	button,
 	.button {
-		-moz-transition: all .25s ease-in-out;
-		-webkit-transition: all .25s ease-in-out;
-		-ms-transition: all .25s ease-in-out;
-		transition: all .25s ease-in-out;
+
 		display: inline-block;
 		background: #6da0f2;
 		text-align: center;
@@ -2008,7 +1998,7 @@
 				width:100%;
 				background-color:grey;
 			}
-			#userMap{
+			#map-container{
 				height:400px;
 				width:100%;
 				background-color:grey;
@@ -2119,11 +2109,6 @@
 							letter-spacing: 0.25em;
 							height: 5em;
 							line-height: 5em;
-							-moz-transition: all .25s ease-in-out;
-							-webkit-transition: all .25s ease-in-out;
-							-o-transition: all .25s ease-in-out;
-							-ms-transition: all .25s ease-in-out;
-							transition: all .25s ease-in-out;
 							outline: 0;
 						}
 
@@ -2155,10 +2140,6 @@
 				}
 
 				.dropotron a, .dropotron span {
-					-moz-transition: all .25s ease-in-out;
-					-webkit-transition: all .25s ease-in-out;
-					-ms-transition: all .25s ease-in-out;
-					transition: all .25s ease-in-out;
 					display: block;
 					color: #eee;
 					color: rgba(255, 255, 255, 0.75);
@@ -2549,16 +2530,10 @@
 				}
 
 					#titleBar .toggle:before {
-						-moz-transition: all .15s ease-in-out;
-						-webkit-transition: all .15s ease-in-out;
-						-ms-transition: all .15s ease-in-out;
-						transition: all .15s ease-in-out;
 						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;
-						-webkit-font-smoothing: antialiased;
-						-moz-osx-font-smoothing: grayscale;
 						content: '\f0c9';
 						font-size: 14px;
 						position: absolute;
@@ -2587,10 +2562,6 @@
 				-webkit-transform: translateX(-275px);
 				-ms-transform: translateX(-275px);
 				transform: translateX(-275px);
-				-moz-transition: -moz-transform 0.5s ease;
-				-webkit-transition: -webkit-transform 0.5s ease;
-				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
 				display: block;
 				height: 100%;
 				left: 0;
