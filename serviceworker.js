@@ -69,7 +69,7 @@ var CACHED_URLS = [
    
 
     //Images for page
-    BASE_PATH + 'appimages/offlinemap.jpg',
+    BASE_PATH + 'images/offlinemap.jpg',
     BASE_PATH + 'appimages/dino.png',
     BASE_PATH + 'appimages/jack.jpg',
     BASE_PATH + 'appimages/paddy.jpg',

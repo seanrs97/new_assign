@@ -2030,6 +2030,14 @@
 			#mobile{
 				margin-bottom:40px;
 			}
+			#map-container.offline-map {
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+			  background-position: center;
+			  background-image: url('images/offlinemap.jpg');
+			}
 
 		/* Header */
 
