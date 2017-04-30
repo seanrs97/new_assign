@@ -105,7 +105,7 @@ self.addEventListener('fetch', function(event) {
                 });
             })
         );
-    } else if (requestURL.pathname === BASE_PATH + 'staffs-.html') {
+    } else if (requestURL.pathname === BASE_PATH + 'staffs-uni.html') {
         event.respondWith(
             caches.open(CACHE_NAME).then(function(cache) {
                 return cache.match('staffs-uni.html').then(function(cachedResponse) {
