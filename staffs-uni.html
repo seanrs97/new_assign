@@ -7,11 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-		<head>
+	<head>
 		<title>A Guide to University</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="apple-mobile-web-app-title" content="Short Title" />
 		<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -25,27 +24,18 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-		
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/ic_launcher-1x.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/ic_launcher-2x.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/ic_launcher-3x.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/ic_launcher-4x.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/ic_launcher-5x.png">
-		<link rel="apple-touch-startup-image" href="/images/favicon/ic_launcher-3x.png">
-		<link rel="apple-touch-startup-image" href="/images/favicon/ic_launcher-4x.png">
-		<meta name="apple-mobile-web-app-title" content="A guide to Staffs Uni">
-
 		<link rel="manifest" href="images/favicon/manifest.json">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#bdcfed">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel = "stylesheet" href = "assets/css/normalize.css"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="styles.css">
-		 
-	    <script src="material.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage" onload = "loadUpScreen(100)">
@@ -89,6 +79,187 @@
 
 						
                 <script>
+                /*function initMap() { 
+                    var myLocation = {lat: 53.0103798, lng: -2.1801833};
+                    var map = new google.maps.Map(document.getElementById('map-container'), {
+                    zoom: 2,
+                    center: myLocation
+                    });
+                    var marker = new google.maps.Marker({
+                    position: myLocation,
+                    map: map
+                    });
+                }*/
+				
+				/*function initMap() {
+					var myLocation = {lat: 53.0091, lng: -2.1761};
+					var map1 = new google.maps.Map(document.getElementById('map-container'), {
+						 zoom: 14,
+						 center: myLocation
+					});
+					var marker = new google.maps.Marker({
+					 position: myLocation,
+					 map: map1
+					});
+				}
+				let options = {
+				  enableHighAccuracy: true,
+				  timeout: 5000,
+				  maximumAge: 0
+				};
+
+				const output = document.getElementById("userLocation");
+
+				var map;
+				var infowindow;
+
+				function success(pos) {
+					
+					let latitude  = pos.coords.latitude;
+					let longitude = pos.coords.longitude;
+					let accuracy = pos.coords.accuracy;
+
+				   // output.innerHTML = `Latitude is ${latitude} and Longitude is ${longitude}. More or less ${accuracy} metres.`;
+					
+					var pyrmont = {lat: latitude, lng: longitude};
+					map = new google.maps.Map(document.getElementById("map-container"), {
+						center: pyrmont,
+						zoom: 14
+					});
+					
+					infowindow = new google.maps.InfoWindow();
+					var service = new google.maps.places.PlacesService(map);
+					service.nearbySearch({
+						location: pyrmont,
+						radius: 5000,
+						type: ["train_station"]
+					}, callback);
+					}
+					function callback(results, status){
+						if(status === google.maps.places.PlacesServiceStatus.OK){
+							for(var i = 0; i < results.length; i++){
+								createMarker(results[i]);
+							}
+						}
+					}
+					function createMarker(place, text, label){
+						var placeLoc = place.geometry.location;
+						var marker = new google.maps.Marker({
+							map:map,
+							position: place.geometry.location,
+						});
+						google.maps.event.addListener(marker, "click",function(){
+							infowindow.setContent(place.name);
+							infowindow.open(map,this);
+						});
+					}
+
+					function error(err) {
+					  console.warn(`ERROR(${err.code}): ${err.message}`);
+					};
+
+					navigator.geolocation.getCurrentPosition(success, error, options);
+				*/
+				
+				
+				
+				
+				
+			/*	var map;
+				var infowindow;
+				var infoWindow;
+				
+				function initMap(){
+					
+					map = new google.maps.Map(document.getElementById("map-container"),{
+						center:{lat: -34.397, lng: 150.644},
+						zoom:14
+					});
+					infowindow = new google.maps.InfoWindow;
+					
+					if(navigator.geolocation){
+						navigator.geolocation.getCurrentPosition(function(position){
+							var pos = {
+								lat: position.coords.latitude,
+								lng: position.coords.longitude
+							};
+							infowindow.setPosition(pos);
+							infowindow.setContent("Location Found.");
+							infowindow.open(map);
+							map.setCenter(pos);
+						}, function(){
+							handleLocationError(true, infowindow, map.getCenter());
+						});
+					} else {
+						handleLocationError(false, infowindow, map.getCenter());
+					}
+				}
+				function handleLocationError(browserHasGeolocation, infowindow, pos){
+					infowindow.setPosition(pos);
+					infowindow.setContent(browserHasGeolocation ?
+					'Error: The Geolocation service failed.' :
+                    'Error: Your browser doesn\'t support geolocation.');
+				infowindow.open(map);
+								
+				}
+			
+			
+			
+			*/
+			/*if(navigator.geolocation){
+				navigator.geolocation.getCurrentPosition(initMap, error);
+			} else {
+				alert("You need geolocation to view this map");
+			}
+			function initMap(pos){
+				var lat = pos.coords.latitude;
+				var lng = pos.coords.longitude;
+				var latlng = new google.maps.LatLng(lat,lng);
+				var options = {
+					zoom: 14,
+					center: latlng,
+					mapTypeId: google.maps.MapTypeId.HYBRID
+				};
+				var map = new google.maps.Map(document.getElementById("map-container"),options);
+				
+				var request = {
+					location: latlng,
+					radius: '2000',
+					type: ['train_station']
+				};
+				
+				var service = new google.maps.places.PlacesService(map);
+				service.search(request, callback);
+				
+				function callback(results, status){
+					if(status === google.maps.places.PlacesServiceStatus.OK){
+						for(var i = 0; i < results.length; i++){
+							var place = results[i];
+							createMarker(results[i]);
+						}
+					}
+				}
+				function createMarker(place){
+					var placeLoc = place.geometry.location;
+					var marker = new google.maps.Marker({
+						map:map,
+						position: place.geometry.location
+					});
+				}
+				var marker = new google.maps.Marker({
+					position: latlng,
+					map: map,
+					title: 'place'
+				});
+			}
+			function error(pos){
+				alert("your browser has blocked geolocation");
+			}
+				*/
+				
+				
+				
+				
 				
 			
 				function initMap() {
@@ -164,7 +335,7 @@ navigator.geolocation.getCurrentPosition(success, error, options);
 				
                 </script>
 				
-					<div id="map-container"></div>
+					<div id="map-container" style="height: 300px;"></div>
 						<script
 							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&sensor=false&libraries=places&callback=initMap" async defer>
 								 
@@ -275,6 +446,9 @@ navigator.geolocation.getCurrentPosition(success, error, options);
 			
 			<script type = "text/javascript" src = "assets/js/modernizr.js"></script>
 			<script src = "scripts.js"/>
+			<script>
+				
+			</script>
 
 	</body>
 </html>
