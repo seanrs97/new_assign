@@ -1068,9 +1068,6 @@
 
 /* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
@@ -2704,7 +2701,7 @@
 
 			#intro {
 				text-align: center;
-				padding: 1,2em 2em 1em 2em !important;
+				padding: 2em 2em 1em 2em !important;
 				margin: 0 auto;
 			}
 
