@@ -105,12 +105,12 @@ self.addEventListener('fetch', function(event) {
                 });
             })
         );
-    } else if (requestURL.pathname === BASE_PATH + 'staffs-uni.html') {
+    } else if (requestURL.pathname === BASE_PATH + 'index.html') {
         event.respondWith(
             caches.open(CACHE_NAME).then(function(cache) {
-                return cache.match('staffs-uni.html').then(function(cachedResponse) {
-                    var fetchPromise = fetch('staffs-uni.html').then(function(networkResponse) {
-                        cache.put('staffs-uni.html', networkResponse.clone());
+                return cache.match('index.html').then(function(cachedResponse) {
+                    var fetchPromise = fetch('index.html').then(function(networkResponse) {
+                        cache.put('index.html', networkResponse.clone());
                         return networkResponse;
                     });
                     return cachedResponse || fetchPromise;
