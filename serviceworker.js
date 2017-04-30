@@ -119,7 +119,22 @@ self.addEventListener('fetch', function(event) {
         );
 
         // Handle requests for Google Maps JavaScript API file
-    } else if (requestURL.href === googleMapsAPIJS) {
+    } 
+	else if (requestURL.pathname === BASE_PATH + 'sign-up.html') {
+        event.respondWith(
+            caches.open(CACHE_NAME).then(function(cache) {
+                return cache.match('sign-up.html').then(function(cachedResponse) {
+                    var fetchPromise = fetch('sign-up.html').then(function(networkResponse) {
+                        cache.put('sign-up.html', networkResponse.clone());
+                        return networkResponse;
+                    });
+                    return cachedResponse || fetchPromise;
+                });
+            })
+        );
+
+        // Handle requests for Google Maps JavaScript API file
+    }else if (requestURL.href === googleMapsAPIJS) {
         event.respondWith(
             fetch(
                 googleMapsAPIJS+'&'+Date.now(),
