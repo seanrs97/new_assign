@@ -1284,7 +1284,7 @@
 		}
 
 		header.style1 p {
-			color: #b1b4b9;
+			color: #797e86;
 		}
 
 /* Image */
@@ -1740,12 +1740,12 @@
 			display: inline-block;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
-			color: #aaa;
-			color: rgba(255, 255, 255, 0.25);
+			color: white;
+			color: white;
 		}
 
 		#copyright a {
-			color: inherit;
+			color: white;
 		}
 
 			#copyright a:hover {
