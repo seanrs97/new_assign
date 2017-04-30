@@ -1203,7 +1203,7 @@
 		display: block;
 		border: 0;
 		background: #eee;
-		box-shadow: inset 0px 0px 1px 0px #a0a1a7;
+		
 		border-radius: 0.35em;
 		width: 100%;
 		padding: 0.75em 1em 0.75em 1em;
@@ -1385,7 +1385,7 @@
 		.button.style2 {
 			background: none;
 			color: #606167;
-			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
+			
 		}
 
 			input[type="button"].style2:hover,
@@ -1393,7 +1393,7 @@
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				box-shadow: inset 0px 0px 2px 0px #606167;
+				
 			}
 
 			input[type="button"].style2:active,
@@ -1401,7 +1401,7 @@
 			input[type="reset"].style2:active,
 			button.style2:active,
 			.button.style2:active {
-				box-shadow: inset 0px 0px 2px 0px #202127;
+				
 			}
 
 		input[type="button"].style3,
@@ -1553,8 +1553,8 @@
 
 		.wrapper.style1 {
 			background: #b3d1ff url("images/overlay.png");
-			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			color: white;
+			color: rgba(255, 255, 255, 1);
 		}
 
 			.wrapper.style1 .title {
@@ -1641,7 +1641,7 @@
 		#footer-wrapper button,
 		#footer-wrapper .button {
 			color: #fff;
-			box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
+			
 		}
 
 			#footer-wrapper input[type="button"]:hover,
@@ -1650,7 +1650,7 @@
 			#footer-wrapper button:hover,
 			#footer-wrapper .button:hover {
 				color: #fff;
-				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
+				
 			}
 
 			#footer-wrapper input[type="button"]:active,
@@ -1658,7 +1658,7 @@
 			#footer-wrapper input[type="reset"]:active,
 			#footer-wrapper button:active,
 			#footer-wrapper .button:active {
-				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+				
 			}
 
 			#footer-wrapper input[type="button"].style2:active,
@@ -1666,7 +1666,7 @@
 			#footer-wrapper input[type="reset"].style2:active,
 			#footer-wrapper button.style2:active,
 			#footer-wrapper .button.style2:active {
-				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+				
 			}
 
 		#footer-wrapper .title {
@@ -1712,7 +1712,7 @@
 		font-weight: 700;
 		color: #fff;
 		border-radius: 0.35em;
-		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+		
 	}
 
 		#intro > .style2 a {
@@ -1739,7 +1739,7 @@
 		#copyright ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
+			
 			color: white;
 			color: white;
 		}
@@ -2092,7 +2092,7 @@
 				#nav > ul {
 					display: inline-block;
 					border-radius: 0.35em;
-					box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+					
 					padding: 0 1.5em 0 1.5em;
 					background:rgba(160, 173, 207, 0.65)
 				}
@@ -2133,7 +2133,7 @@
 				background-color: rgba(44, 50, 63, 0.925);
 				padding: 1.25em 1em 1.25em 1em;
 				border-radius: 0.35em;
-				box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+				
 				min-width: 12em;
 				text-align: left;
 				margin-top: -1.25em;
@@ -2209,7 +2209,7 @@
 				height:250px;
 				width:400px;
 				float:right;
-				box-shadow:6px 6px 40px black;
+				
 			}
 
 				#features header.style1 {
@@ -2576,7 +2576,7 @@
 				width: 275px;
 				z-index: 10002;
 				background: #242730 url("images/overlay.png");
-				box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
+				
 			}
 
 				#navPanel .link {
