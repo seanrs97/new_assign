@@ -1982,7 +1982,7 @@
 				margin:0 auto;
 				width:8%;
 			}
-			#intro ul h3{
+			#intro ul .largeIcon{
 				font-size:1.9em;
 				margin-top:30px;
 			}
