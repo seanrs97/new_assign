@@ -74,15 +74,14 @@
 
 						
                 <script>
-				
-				
-			
-				function initMap() {
-				    if (navigator.geolocation) {
-						navigator.geolocation.getCurrentPosition(showPosition);
+					if (navigator.geolocation) {
+						navigator.geolocation.getCurrentPosition(initMap);
 					} else { 
 						alert("you must give us permission to your location for map to work")
 					}
+				
+			
+				function initMap() {
 					
 					var uluru = {lat: 53.0091, lng: -2.1761};
 					var map = new google.maps.Map(document.getElementById('map-container'), {
