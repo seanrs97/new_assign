@@ -67,7 +67,7 @@ var CACHED_URLS = [
    
 
     //Images for page
-    BASE_PATH + 'images/assets/css/images/offlinemap.jpg',
+    BASE_PATH + 'assets/css/images/offlinemap.jpg',
 
     BASE_PATH + 'offline-map.js',
     BASE_PATH + 'material.js',
