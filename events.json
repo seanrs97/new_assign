@@ -3,13 +3,10 @@
     {
         "picture": "images/indexImage5.webp",
         "heading": "Some Further Reading",
-        "text": "Click the link below for some interesting facts about Staffs",
+        "text": "Click the links below for some interesting facts about Staffs",
         "link": "http://www.staffs.ac.uk/press/facts/"
-    },
-	{
-        "picture": "images/indexImage5.webp",
-        "heading": "Some Further Reading",
-        "text": "Click the link below for some general info about Staffs",
-        "link": "http://www.staffs.ac.uk/support_depts/info_centre/"
+		"picture2": "images/indexImage5.webp",
+		"link2": ""http://www.staffs.ac.uk/support_depts/info_centre/"
+		
     }
 ]
