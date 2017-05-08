@@ -36,13 +36,12 @@ var CACHED_URLS = [
    
    
    
-   BASE_PATH +'images/banner.jpg',
    BASE_PATH +'images/main-image.webp',
    BASE_PATH +'images/universityImage-1x.png',
    BASE_PATH +'images/universityImage-2x.png',
    BASE_PATH +'images/universityImage-3x.png',
    
-   BASE_PATH +'images/indexImage1.png',
+   BASE_PATH +'images/indexImage1.webp',
    BASE_PATH +'images/indexImage2.webp',
    BASE_PATH +'images/indexImage3.webp',
    BASE_PATH +'images/indexImage4.webp',
