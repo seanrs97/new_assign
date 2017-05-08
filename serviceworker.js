@@ -144,32 +144,32 @@ self.addEventListener('fetch', function(event) {
                 return caches.match('offline-map.js');
             })
         );
-    //     // Handle requests for events JSON file
-    // } else if (requestURL.pathname === BASE_PATH + 'events.json') {
-    //     event.respondWith(
-    //         caches.open(CACHE_NAME).then(function(cache) {
-    //             return fetch(event.request).then(function(networkResponse) {
-    //                 cache.put(event.request, networkResponse.clone());
-    //                 return networkResponse;
-    //             }).catch(function() {
-    //                 return caches.match(event.request);
-    //             });
-    //         })
-    //     );
-    //     // Handle requests for event images.
-    // } else if (requestURL.pathname.includes('/eventsimages/')) {
-    //     event.respondWith(
-    //         caches.open(CACHE_NAME).then(function(cache) {
-    //             return cache.match(event.request).then(function(cacheResponse) {
-    //                 return cacheResponse||fetch(event.request).then(function(networkResponse) {
-    //                     cache.put(event.request, networkResponse.clone());
-    //                     return networkResponse;
-    //                 }).catch(function() {
-    //                     return cache.match('appimages/event-default.png');
-    //                 });
-    //             });
-    //         })
-    //     );
+         // Handle requests for events JSON file
+     } else if (requestURL.pathname === BASE_PATH + 'events.json') {
+        event.respondWith(
+             caches.open(CACHE_NAME).then(function(cache) {
+                 return fetch(event.request).then(function(networkResponse) {
+                     cache.put(event.request, networkResponse.clone());
+                    return networkResponse;
+                 }).catch(function() {
+                     return caches.match(event.request);
+                 });
+             })
+         );
+         // Handle requests for event images.
+     } else if (requestURL.pathname.includes('/images/')) {
+         event.respondWith(
+             caches.open(CACHE_NAME).then(function(cache) {
+                 return cache.match(event.request).then(function(cacheResponse) {
+                     return cacheResponse||fetch(event.request).then(function(networkResponse) {
+                       cache.put(event.request, networkResponse.clone());
+                        return networkResponse;
+                    }).catch(function() {
+                         return cache.match('images/universityImage-1x.png');
+                     });
+                 });
+             })
+         );
 
     // Handle requests for events JSON file
     } else if (requestURL.pathname === BASE_PATH + 'events.json') {
