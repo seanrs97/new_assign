@@ -2,8 +2,10 @@
  
     {
         "picture": "images/indexImage1.webp",
+		"picture2": "images/indexImage5.webp",
         "heading": "Read some more articles about Staffordshire University",
         "text": "Below are some links to external articles that you may want to take a look at! They contain information and facts about Staffs University that will help you on your journey to University.",
-        "link": "http://www.staffs.ac.uk/support_depts/info_centre/"
+        "link": "http://www.staffs.ac.uk/support_depts/info_centre/",
+		"link2": "http://www.staffs.ac.uk/press/facts/"
     }
 ]

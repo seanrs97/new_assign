@@ -15,7 +15,7 @@ fetch("events.json")
             return `<div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
                 <div class="mdl-card__media">
                     <img class="article-image" src="${event.picture}" border="0" alt="further information image">
-					
+					<img class="article-image" src="${event.picture2}" border="0" alt="further information image">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">${event.heading}</h2>
@@ -24,8 +24,8 @@ fetch("events.json")
                     ${event.text}
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="${event.link}" data-upgraded=",MaterialButton,MaterialRipple">Read more<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
-				
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="${event.link}" data-upgraded=",MaterialButton,MaterialRipple">Interesting Site 1<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+					<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="${event.link2}" data-upgraded=",MaterialButton,MaterialRipple">Interesting Site 2<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
                 </div>
             </div>`;
         }).join("\n");
