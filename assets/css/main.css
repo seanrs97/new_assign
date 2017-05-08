@@ -2035,11 +2035,11 @@
 			  background-position: center;
 			  background-image: url('images/offlinemap.jpg');
 			}
-			#eventsContainer{
+			#events{
 				margin-top:20px;
 				width: 100%;
 			}
-			#eventsContainer img{
+			#events img{
 				width:500px;
 				height:300px;
 			}
