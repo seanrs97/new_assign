@@ -14,7 +14,7 @@ fetch("events.json")
         const eventsHTML = events.map(event => {
             return `<div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
 				<div class = "mdl_card_title">
-					<h1>${event.main_heading}</h1>
+					<h1 text-align = "center">${event.main_heading}</h1>
 				</div>
                 <div class="mdl-card__media">
                     <img class="article-image" src="${event.picture}" border="0" alt="further information image">
