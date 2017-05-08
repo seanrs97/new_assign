@@ -36,12 +36,8 @@ var CACHED_URLS = [
    
    
    
-   BASE_PATH +'images/activities-image.jpg',
    BASE_PATH +'images/banner.jpg',
-   BASE_PATH +'images/clubs-image.jpg',
    BASE_PATH +'images/main-image.jpg',
-   BASE_PATH +'images/party-image.jpg',
-   BASE_PATH +'images/study-image.jpg',
    BASE_PATH +'images/universityImage-1x.png',
    BASE_PATH +'images/universityImage-2x.png',
    BASE_PATH +'images/universityImage-3x.png',
