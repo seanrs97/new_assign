@@ -5,7 +5,6 @@ var newsAPIJSON = "https://newsapi.org/v1/articles?source=bbc-news&apiKey=c5b2ba
 
 var CACHED_URLS = [
     // Our HTML
-    BASE_PATH + 'first.html',
 	BASE_PATH + 'index.html',
 	BASE_PATH + 'staffs-uni.html',
 	BASE_PATH + 'sign-up.html',
@@ -13,7 +12,6 @@ var CACHED_URLS = [
     //                      PUT THESE IN RIGHT SPOTS
     BASE_PATH + 'scripts.js',
     BASE_PATH + 'events.json',
-    BASE_PATH + 'second.html',
 
 
     // Images for favicons
@@ -58,12 +56,10 @@ var CACHED_URLS = [
    BASE_PATH +'assets/css/font-awesome.min.css',
    BASE_PATH +'assets/css/ie8.css',
    BASE_PATH +'assets/css/main.css',
-   BASE_PATH +'assets/css/normalize.css',
    BASE_PATH +'assets/fonts/FontAwesome.otf',
    BASE_PATH +'assets/js/gen_validatorv31.js',
    BASE_PATH +'assets/js/jquery.min.js',
    BASE_PATH +'assets/js/main.js',
-   BASE_PATH +'assets/js/modernizr.js',
    BASE_PATH +'assets/sass/ie8.scss',
    BASE_PATH +'assets/sass/main.scss',
    BASE_PATH +'assets/browserconfig.xml',
@@ -78,12 +74,10 @@ var CACHED_URLS = [
     BASE_PATH + 'offline-map.js',
     BASE_PATH + 'material.js',
     // Manifest
-    BASE_PATH + 'manifest.json',
+    BASE_PATH + 'images/favicon/manifest.json',
     // CSS and fonts
     'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    BASE_PATH + 'min-style.css',
-    BASE_PATH + 'styles.css'
 ];
 
 var googleMapsAPIJS ="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMA8ic4_Gyh0D7XUW9gBtrCcEwoBbBJ8E&sensor=false&libraries=places&callback=initMap"
