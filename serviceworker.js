@@ -51,8 +51,6 @@ var CACHED_URLS = [
    BASE_PATH +'images/indexImage10.webp',
    
    
-   BASE_PATH +'assets/css/images/overlay.png',
-   BASE_PATH +'assets/css/images/shadow.png',
    BASE_PATH +'assets/css/font-awesome.min.css',
    BASE_PATH +'assets/css/ie8.css',
    BASE_PATH +'assets/css/main.css',
