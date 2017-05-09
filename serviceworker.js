@@ -5,13 +5,16 @@ var newsAPIJSON = "https://newsapi.org/v1/articles?source=bbc-news&apiKey=c5b2ba
 
 var CACHED_URLS = [
     // Our HTML
-   BASE_PATH + 'index.html',
-   BASE_PATH + 'staffs-uni.html',
-   BASE_PATH + 'sign-up.html',
+	BASE_PATH + 'index.html',
+	BASE_PATH + 'staffs-uni.html',
+	BASE_PATH + 'sign-up.html',
 
-   BASE_PATH + 'scripts.js',
-   BASE_PATH + 'events.json',
+    //                      PUT THESE IN RIGHT SPOTS
+    BASE_PATH + 'scripts.js',
+    BASE_PATH + 'events.json',
 
+
+    // Images for favicons
    BASE_PATH +'images/favicon/android-icon-36x36.png',
    BASE_PATH +'images/favicon/android-icon-48x48.png',
    BASE_PATH +'images/favicon/android-icon-72x72.png',
@@ -27,24 +30,52 @@ var CACHED_URLS = [
    BASE_PATH +'images/favicon/ic_launcher-4x.png',
    BASE_PATH +'images/favicon/ic_launcher-5x.png',
    
+   
+   
+   
+   
    BASE_PATH +'images/main-image.webp',
    BASE_PATH +'images/universityImage-1x.png',
+   BASE_PATH +'images/universityImage-2x.png',
+   BASE_PATH +'images/universityImage-3x.png',
    
    BASE_PATH +'images/indexImage1.webp',
    BASE_PATH +'images/indexImage2.webp',
    BASE_PATH +'images/indexImage3.webp',
+   BASE_PATH +'images/indexImage4.webp',
+   BASE_PATH +'images/indexImage5.webp',
+   BASE_PATH +'images/indexImage6.webp',
+   BASE_PATH +'images/indexImage7.webp',
+   BASE_PATH +'images/indexImage8.webp',
+   BASE_PATH +'images/indexImage9.webp',
+   BASE_PATH +'images/indexImage10.webp',
    
    
+   BASE_PATH +'assets/css/images/overlay.png',
+   BASE_PATH +'assets/css/images/shadow.png',
    BASE_PATH +'assets/css/font-awesome.min.css',
    BASE_PATH +'assets/css/ie8.css',
    BASE_PATH +'assets/css/main.css',
+
+   BASE_PATH +'assets/fonts/FontAwesome.otf',
+   BASE_PATH +'assets/js/gen_validatorv31.js',
+   BASE_PATH +'assets/js/jquery.min.js',
    BASE_PATH +'assets/js/main.js',
+   BASE_PATH +'assets/sass/ie8.scss',
    BASE_PATH +'assets/sass/main.scss',
-   BASE_PATH +'assets/browserconfig.xml', 
-   BASE_PATH + 'assets/css/images/offlinemap.jpg',
-   BASE_PATH + 'offline-map.js',
-   BASE_PATH + 'material.js',
-   BASE_PATH + 'images/favicon/manifest.json',
+   BASE_PATH +'assets/browserconfig.xml',
+   
+   
+   
+   
+
+    //Images for page
+    BASE_PATH + 'assets/css/images/offlinemap.jpg',
+
+    BASE_PATH + 'offline-map.js',
+    BASE_PATH + 'material.js',
+    // Manifest
+    BASE_PATH + 'images/favicon/manifest.json',
     // CSS and fonts
     'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
