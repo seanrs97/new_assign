@@ -39,14 +39,6 @@ var CACHED_URLS = [
    
    BASE_PATH +'images/indexImage1.webp',
    BASE_PATH +'images/indexImage2.webp',
-   BASE_PATH +'images/indexImage3.webp',
-   BASE_PATH +'images/indexImage4.webp',
-   BASE_PATH +'images/indexImage5.webp',
-   BASE_PATH +'images/indexImage6.webp',
-   BASE_PATH +'images/indexImage7.webp',
-   BASE_PATH +'images/indexImage8.webp',
-   BASE_PATH +'images/indexImage9.webp',
-   BASE_PATH +'images/indexImage10.webp',
    
    
    BASE_PATH +'assets/css/main.css',
