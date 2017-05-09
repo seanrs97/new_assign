@@ -8,6 +8,8 @@ var CACHED_URLS = [
 	BASE_PATH + 'index.html',
 	BASE_PATH + 'staffs-uni.html',
 	BASE_PATH + 'sign-up.html',
+
+    //                      PUT THESE IN RIGHT SPOTS
     BASE_PATH + 'scripts.js',
     BASE_PATH + 'events.json',
 
@@ -39,11 +41,29 @@ var CACHED_URLS = [
    
    BASE_PATH +'images/indexImage1.webp',
    BASE_PATH +'images/indexImage2.webp',
+   BASE_PATH +'images/indexImage3.webp',
+   BASE_PATH +'images/indexImage4.webp',
+   BASE_PATH +'images/indexImage5.webp',
+   BASE_PATH +'images/indexImage6.webp',
+   BASE_PATH +'images/indexImage7.webp',
+   BASE_PATH +'images/indexImage8.webp',
+   BASE_PATH +'images/indexImage9.webp',
+   BASE_PATH +'images/indexImage10.webp',
    
    
+   BASE_PATH +'assets/css/images/overlay.png',
+   BASE_PATH +'assets/css/images/shadow.png',
+   BASE_PATH +'assets/css/font-awesome.min.css',
+   BASE_PATH +'assets/css/ie8.css',
    BASE_PATH +'assets/css/main.css',
 
+   BASE_PATH +'assets/fonts/FontAwesome.otf',
+   BASE_PATH +'assets/js/gen_validatorv31.js',
+   BASE_PATH +'assets/js/jquery.min.js',
    BASE_PATH +'assets/js/main.js',
+   BASE_PATH +'assets/sass/ie8.scss',
+   BASE_PATH +'assets/sass/main.scss',
+   BASE_PATH +'assets/browserconfig.xml',
    
    
    
